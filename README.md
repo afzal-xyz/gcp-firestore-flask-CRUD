@@ -1,8 +1,7 @@
-# Flask-Python RESTful APIs Using Google App Engine
+# Building CRUD App Using Flask-RESTful and Google Cloud Firestore
 
 
-It is a boilerplate project for creating RESTful APIs using Flask-Python framework and then deploy them on Google App Engine. 
-It consists of two classes Tasks and TaskList. Task let you create, delete, update a single task while TaskList let you perform 
-same operations on list of Tasks. Main goal is to facilitate these operations through RESTful APIs which can be called either from web or from mobile.
+It is a boilerplate project for creating CRUD App using Flask-Python framework and then deploy them on Google App Engine and leveraging Google Cloud Firestore. 
+It consists of three classes Tasks which is a custom data type for storing document in Firestore, TaskList for POST and GET operations. TaskListById for PUT and DELETE operations.
 
-Tutorial: https://medium.com/@sleaktrade/flask-python-restful-apis-using-google-app-engine-6b777d0de9c8
+Tutorial: 
